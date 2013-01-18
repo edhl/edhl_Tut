@@ -24,6 +24,7 @@ clone the repository to your own machine using the SSH-based URL, i.e. the one s
 git status
 git add 'filename'
 git commit -m "some note"
+git push //to make changes to actual server
 
 ===================
 #compile / run programs
