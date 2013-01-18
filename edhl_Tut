@@ -1,0 +1,26 @@
+===================
+#Repository making
+===================
+
+ssh -T git@github.com
+
+make new repository on github.com
+	public
+	initialize with README
+	(optional)don't add .gitignore file
+
+===================
+#cloning repository
+===================
+
+cd
+git clone git@github.com: ...
+clone the repository to your own machine using the SSH-based URL, i.e. the one starting with git@github.com/...
+
+===================
+#commit changes
+===================
+
+git status
+git add 'filename'
+git commit -m "some note"
